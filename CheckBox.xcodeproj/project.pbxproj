@@ -13,6 +13,7 @@
 		E9A74D921B7897090051069D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A74D911B7897090051069D /* Images.xcassets */; };
 		E9A74D951B7897090051069D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A74D931B7897090051069D /* LaunchScreen.xib */; };
 		E9A74DA11B7897090051069D /* CheckBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A74DA01B7897090051069D /* CheckBoxTests.swift */; };
+		E9A74DAB1B78984C0051069D /* UICheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A74DAA1B78984C0051069D /* UICheckbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E9A74D9A1B7897090051069D /* CheckBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A74D9F1B7897090051069D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9A74DA01B7897090051069D /* CheckBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxTests.swift; sourceTree = "<group>"; };
+		E9A74DAA1B78984C0051069D /* UICheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E9A74D8A1B7897090051069D /* AppDelegate.swift */,
 				E9A74D8C1B7897090051069D /* ViewController.swift */,
+				E9A74DAA1B78984C0051069D /* UICheckbox.swift */,
 				E9A74D8E1B7897090051069D /* Main.storyboard */,
 				E9A74D911B7897090051069D /* Images.xcassets */,
 				E9A74D931B7897090051069D /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A74DAB1B78984C0051069D /* UICheckbox.swift in Sources */,
 				E9A74D8D1B7897090051069D /* ViewController.swift in Sources */,
 				E9A74D8B1B7897090051069D /* AppDelegate.swift in Sources */,
 			);

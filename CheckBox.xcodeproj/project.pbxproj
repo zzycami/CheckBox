@@ -14,6 +14,15 @@
 		E9A74D951B7897090051069D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A74D931B7897090051069D /* LaunchScreen.xib */; };
 		E9A74DA11B7897090051069D /* CheckBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A74DA01B7897090051069D /* CheckBoxTests.swift */; };
 		E9A74DAB1B78984C0051069D /* UICheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A74DAA1B78984C0051069D /* UICheckbox.swift */; };
+		E9B1A9CE1B7994A2004AB43A /* CheckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1A9CD1B7994A2004AB43A /* CheckTableViewController.swift */; };
+		E9B1A9DD1B799611004AB43A /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1A9D31B799611004AB43A /* Constraint.swift */; };
+		E9B1A9DE1B799611004AB43A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1A9D41B799611004AB43A /* ConstraintAttributes.swift */; };
+		E9B1A9DF1B799611004AB43A /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1A9D51B799611004AB43A /* ConstraintItem.swift */; };
+		E9B1A9E01B799611004AB43A /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1A9D61B799611004AB43A /* ConstraintMaker.swift */; };
+		E9B1A9E11B799611004AB43A /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1A9D71B799611004AB43A /* ConstraintRelation.swift */; };
+		E9B1A9E21B799611004AB43A /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1A9D81B799611004AB43A /* EdgeInsets.swift */; };
+		E9B1A9E31B799611004AB43A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1A9D91B799611004AB43A /* LayoutConstraint.swift */; };
+		E9B1A9E41B799611004AB43A /* View+Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1A9DA1B799611004AB43A /* View+Snap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,15 @@
 		E9A74D9F1B7897090051069D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9A74DA01B7897090051069D /* CheckBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxTests.swift; sourceTree = "<group>"; };
 		E9A74DAA1B78984C0051069D /* UICheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckbox.swift; sourceTree = "<group>"; };
+		E9B1A9CD1B7994A2004AB43A /* CheckTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckTableViewController.swift; sourceTree = "<group>"; };
+		E9B1A9D31B799611004AB43A /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		E9B1A9D41B799611004AB43A /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		E9B1A9D51B799611004AB43A /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		E9B1A9D61B799611004AB43A /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		E9B1A9D71B799611004AB43A /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		E9B1A9D81B799611004AB43A /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		E9B1A9D91B799611004AB43A /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		E9B1A9DA1B799611004AB43A /* View+Snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Snap.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +97,11 @@
 		E9A74D871B7897090051069D /* CheckBox */ = {
 			isa = PBXGroup;
 			children = (
+				E9B1A9CF1B799611004AB43A /* Snap */,
 				E9A74D8A1B7897090051069D /* AppDelegate.swift */,
 				E9A74D8C1B7897090051069D /* ViewController.swift */,
 				E9A74DAA1B78984C0051069D /* UICheckbox.swift */,
+				E9B1A9CD1B7994A2004AB43A /* CheckTableViewController.swift */,
 				E9A74D8E1B7897090051069D /* Main.storyboard */,
 				E9A74D911B7897090051069D /* Images.xcassets */,
 				E9A74D931B7897090051069D /* LaunchScreen.xib */,
@@ -113,6 +133,29 @@
 				E9A74D9F1B7897090051069D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9B1A9CF1B799611004AB43A /* Snap */ = {
+			isa = PBXGroup;
+			children = (
+				E9B1A9D21B799611004AB43A /* Source */,
+			);
+			path = Snap;
+			sourceTree = "<group>";
+		};
+		E9B1A9D21B799611004AB43A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E9B1A9D31B799611004AB43A /* Constraint.swift */,
+				E9B1A9D41B799611004AB43A /* ConstraintAttributes.swift */,
+				E9B1A9D51B799611004AB43A /* ConstraintItem.swift */,
+				E9B1A9D61B799611004AB43A /* ConstraintMaker.swift */,
+				E9B1A9D71B799611004AB43A /* ConstraintRelation.swift */,
+				E9B1A9D81B799611004AB43A /* EdgeInsets.swift */,
+				E9B1A9D91B799611004AB43A /* LayoutConstraint.swift */,
+				E9B1A9DA1B799611004AB43A /* View+Snap.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +258,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B1A9DD1B799611004AB43A /* Constraint.swift in Sources */,
 				E9A74DAB1B78984C0051069D /* UICheckbox.swift in Sources */,
+				E9B1A9E01B799611004AB43A /* ConstraintMaker.swift in Sources */,
+				E9B1A9E21B799611004AB43A /* EdgeInsets.swift in Sources */,
+				E9B1A9DE1B799611004AB43A /* ConstraintAttributes.swift in Sources */,
+				E9B1A9DF1B799611004AB43A /* ConstraintItem.swift in Sources */,
 				E9A74D8D1B7897090051069D /* ViewController.swift in Sources */,
+				E9B1A9E11B799611004AB43A /* ConstraintRelation.swift in Sources */,
+				E9B1A9E31B799611004AB43A /* LayoutConstraint.swift in Sources */,
+				E9B1A9E41B799611004AB43A /* View+Snap.swift in Sources */,
+				E9B1A9CE1B7994A2004AB43A /* CheckTableViewController.swift in Sources */,
 				E9A74D8B1B7897090051069D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +467,7 @@
 				E9A74DA61B7897090051069D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9A74DA71B7897090051069D /* Build configuration list for PBXNativeTarget "CheckBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +476,7 @@
 				E9A74DA91B7897090051069D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

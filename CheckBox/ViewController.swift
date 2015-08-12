@@ -13,6 +13,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var label: UILabel!
     
+    @IBAction func showList(sender: UIBarButtonItem) {
+        var checkTableViewController = CheckTableViewController()
+        checkTableViewController.options = ["Option1", "Option2", "Option3", "Option4", "Option5", "Option6", "Option7"]
+        self.navigationController?.pushViewController(checkTableViewController, animated: true)
+    }
+    
+    
     @IBAction func onColorChanged(sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
             checkbox.checkboxColor = UIColor.blackColor()
